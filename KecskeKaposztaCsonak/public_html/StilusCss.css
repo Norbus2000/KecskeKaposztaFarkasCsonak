@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+main{
+   grid-template-area:
+   "h h h h h h h h h h"
+   "as as as a a a a as as as"
+   "f f f f f f f f f f";
+}
+
+
+article{
+    grid-temlpate:a;
+    background-color: #80e5ff ;
+    border: solid grey 1px
+}
+
+.bal{
+    border: solid black 1px
+}
+
+.jobb{
+    border: solid black 1px
+}
+
+aside{
+    grid-template:as;
+}
+
+header{
+    grid-template:h;
+}
+
+footer{
+    grid-template:f;
+}
