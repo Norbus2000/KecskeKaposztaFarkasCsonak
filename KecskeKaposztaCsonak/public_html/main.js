@@ -11,7 +11,7 @@ function $(nev){
 function init () {
 
     for (var i=0; i <3; i++) {
-        $("#bal img")[i].addEventListener("click", megjelenit, KepKozep);
+        $("#bal img")[i].addEventListener("click", megjelenit,/* KepKozep*/);
     }
 }
 function megjelenit() {
@@ -36,11 +36,11 @@ function megjelenit() {
     this.style.margin-left == auto;
     this.style.margin-right==auto;
   }
-}*/
+}
 
 var  kecske=kepek/kecske2.png;
 var kaposzta =kepek/kaposzta.png;
-var farkas= kepek/farkas.png;
+var farkas= kepek/farkas.png; 
 
 function Alertablak() {
     if (kecske.style.display=="block" &&  kaposzta.style.display=="block") {
@@ -48,4 +48,4 @@ function Alertablak() {
     }else if (farkas.style.display=="block" &&  kecske.style.display=="block"){
         alert("Helytelen választás!");
     }
-}   
+} */
