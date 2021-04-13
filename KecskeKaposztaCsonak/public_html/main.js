@@ -49,3 +49,25 @@ function Alertablak() {
         alert("Helytelen választás!");
     }
 } */
+
+
+function init() {
+    let kepek = document.querySelectorAll("#bal img");
+
+    console.log(kepek);
+    for (var i = 0; i < 3; i++) {
+        kepek[i].addEventListener("mouseenter", function (event) {
+
+        event.target.style.border = "5px solid red";
+
+    });
+    kepek[i].addEventListener("mouseout", function( event ) {
+
+  event.target.style.border = "5px solid white";
+
+
+});
+        
+    }
+    
+}
